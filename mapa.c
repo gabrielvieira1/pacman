@@ -10,7 +10,8 @@ void copiamapa(MAPA* destino, MAPA* origem) {
 
 	alocamapa(destino);
 	for(int i = 0; i < origem->linhas; i++) {
-		strcpy(destino->matriz[i], origem->matriz[i]);
+  int len = origem->colunas * sizeof(char);
+		strncpy(destino->matriz[i], origem->matriz[i], len);
 	}
 
 }
