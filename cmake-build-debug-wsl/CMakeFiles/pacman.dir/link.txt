@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/pacman.dir/mapa.c.o CMakeFiles/pacman.dir/pacman.c.o CMakeFiles/pacman.dir/ui.c.o -o pacman 

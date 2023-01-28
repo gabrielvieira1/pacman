@@ -5,7 +5,7 @@
 
 void lemapa(MAPA* m) {
 	FILE* f;
-	f = fopen("mapa.txt", "r");
+	f = fopen("mapa2.txt", "r");
 	if(f == 0) {
 		printf("Erro na leitura do mapa");
 		exit(1);
